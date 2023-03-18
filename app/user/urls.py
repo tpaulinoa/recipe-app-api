@@ -10,5 +10,5 @@ from user import views
 app_name = 'user'
 
 urlpatterns = [
-    path('/', views.CreateUserView.as_view(), name='create')
+    path('', views.CreateUserView.as_view(), name='create')
 ]
